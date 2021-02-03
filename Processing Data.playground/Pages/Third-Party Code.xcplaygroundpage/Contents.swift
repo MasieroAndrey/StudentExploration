@@ -68,6 +68,7 @@ func editDistance(from a: String, to b: String) -> Int {
     
     return matrix[m][n]
 }
+print("bolinho")
 //:  - callout(Exercise): Try the `editDistance()` function with some strings below to see it in action.
 editDistance(from: "cat", to: "cake")
 
