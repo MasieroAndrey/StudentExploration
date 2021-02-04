@@ -9,9 +9,10 @@
  
  The array below contains the [ten most commonly used passwords of 2017](https://www.teamsid.com/worst-passwords-2017-full-list/), according to [TeamsID](https://www.teamsid.com/security/), an Internet security company.
  */
+import Foundation
 let tenMostCommonPasswords = [
     "123456",
-    "password",
+    "Password",
     "12345678",
     "qwerty",
     "12345",
@@ -26,7 +27,6 @@ let tenMostCommonPasswords = [
  
  Use the `contains()` method of `Array` to make sure the user hasn't chosen one of these passwords. Display a message informing the user whether or not they've chosen a secure password.
  */
-let password = "password"
 
 /*:
 page 1 of 5  |  [Next: Checking for Characters](@next)

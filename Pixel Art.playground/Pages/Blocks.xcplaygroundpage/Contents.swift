@@ -12,7 +12,15 @@ func hline(x: Int, y: Int, length: Int, color: Color) {
         display.setPixel(x: x + i, y: y, color: color)
     }
 }
-
+func zline(x: Int, y: Int, length: Int, color: Color) {
+    for i in 0 ... length - 1 {
+        display.setPixel(x: x, y: y + i, color: color)
+    }
+}
+hline(x: 10, y: 8, length: 20, color: Color.yellow)
+hline(x: 10, y: 16, length: 20, color: Color.yellow)
+zline(x: 10, y: 8, length: 8, color: Color.yellow)
+zline(x: 30, y:8, length: 9, color: Color.blue)
 /*:
  ### Fill Speed
  
