@@ -19,6 +19,10 @@ let tenMostCommonPasswords = [
 ]
 let digits = "0123456789"
 let punctuation = "!@#$%^&*(),.<>;'`~[]{}\\|/?_-+= "
+let password = "Qusuario112341234@"
+password.count
+let login = "usuario"
+print(calcPassword(password:password , login: login))
 /*:
 ### Implement your algorithm below with the additional new rules:
 

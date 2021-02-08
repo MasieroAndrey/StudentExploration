@@ -16,7 +16,7 @@
 let password = "Passadssdaadasdaa@"
 password.count
 
-print(calcPassword(password: password))
+
 
 /*:
  Implement your updated algorithm below. Rather than checking the password as a whole, you'll now have to check each of its characters.
